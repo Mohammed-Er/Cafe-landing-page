@@ -40,6 +40,13 @@
         
     }
 
+    .nav__toggle{
+        display: none;
+        font-size: 20px;
+        cursor: pointer;
+        color: #d0841a;
+    }
+
     .nav__list-item {
         list-style-type: none;
         padding: 10px 15px;
@@ -293,6 +300,7 @@
     .menu__price{
         font-weight: bold;
         color: #333;
+        margin-bottom: 10px;
     }
 
     .footer{
@@ -335,3 +343,83 @@
         color: #a55c00;
     }
 
+@media (max-width: 768px) {
+    .nav__container{
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+    }
+    .nav__container h2{
+        font-size: 22px;
+    }
+    .nav__list{
+        padding: 10px;
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        border-radius: 8px;
+        background-color: rgba(226, 223, 219, 0.95)
+    }
+    .nav__list-item{
+        font-size: 14px; 
+    }
+
+    .nav__toggle{
+        display: block;
+    }
+
+    .hero__title{
+        font-size: 22px;
+    }
+
+    .hero__p{
+        font-size: 14px;
+    }
+
+    .hero__btn{
+        font-size: 12px;
+        display: inline-block;
+    }
+
+    .fa-mug-saucer{
+        font-size: 1rem;
+    }
+
+    .cafe{
+        flex-direction: column;
+    }
+    
+    .cafe__left{
+        flex-basis: 100%;
+    }
+
+    .cafe__right{
+        flex-basis: 100%;
+    }
+
+    .cafe__img{
+        width: 100%;
+    }
+
+    .menu__grid{
+        grid-template-columns: 1fr;
+    }
+
+    .menu__price{
+        margin-bottom: 5px;
+    }
+
+    .menu, .contact, .cafe {
+    padding: 20px;
+    margin: 15px;
+  }
+    .contact__form{
+        padding: 15px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1224px){
+    .menu__grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

@@ -10,3 +10,10 @@ sections.forEach(section => {
         }
     })
 })
+
+const toggleIcon = document.getElementById("navToggle")
+const navList = document.getElementById("navList")
+
+toggleIcon.addEventListener("click", () => {
+    navList.classList.toggle("nav__toggle");
+})
