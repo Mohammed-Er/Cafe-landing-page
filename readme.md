@@ -13,13 +13,13 @@ A simple and cozy landing page for a fictional cafe.
 [Live Demo](https://mohammed-er.github.io/Cozy-Cafe/)
 
 ## 📸 Screenshots
-![Header section](image.png)
+![Header section](assets/images/image.png)
 
-![About Section](image2.png)
+![About Section](assets/images/image2.png)
 
-![Contact Section](image3.png)
+![Contact Section](assets/images/image3.png)
 
-![Menu + Footer Section](image4.png)
+![Menu + Footer Section](assets/images/image4.png)
 
 ## ✨ Features
 - Responsive design
