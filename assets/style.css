@@ -45,6 +45,7 @@
         font-size: 20px;
         cursor: pointer;
         color: #d0841a;
+        align-self: center;
     }
 
     .nav__list-item {
