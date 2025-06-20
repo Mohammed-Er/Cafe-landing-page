@@ -1,10 +1,27 @@
-# cozy cafe landing page
+# Cozy Cafe Landing Page ☕
 
-This is a very simple landing page for a local cafe brand using **html, css and a tiny amount of Javascript for the navbar** that i built to see my skills in html and css and js 
+A simple and cozy landing page for a fictional cafe.
 
-## languases used:
+## 🔧 Technologies Used
+- HTML
+- CSS (Flexbox + Grid)
+- Js (for navigation)
+- Google Fonts
+- FontAwesome Icons
 
-Html
-css
-js
+## 🔍 Live Preview
+[Live Demo](https://mohammed-er.github.io/Cozy-Cafe/)
 
+## 📸 Screenshots
+![Header section](image.png)
+
+![About Section](image2.png)
+
+![Contact Section](image3.png)
+
+![Menu + Footer Section](image4.png)
+
+## ✨ Features
+- Responsive design
+- Smooth scroll navigation
+- About, Menu, and Contact sections
