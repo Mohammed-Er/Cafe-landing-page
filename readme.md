@@ -1,11 +1,11 @@
 # Cozy Cafe Landing Page ☕
 
-A simple and cozy landing page for a fictional cafe.
+A simple and cozy responsive landing page for a fictional cafe.
 
 ## 🔧 Technologies Used
 - HTML
 - CSS (Flexbox + Grid)
-- Js (for navigation)
+- Js 
 - Google Fonts
 - FontAwesome Icons
 
