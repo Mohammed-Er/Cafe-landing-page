@@ -186,7 +186,7 @@
     .contact__item{
         padding-bottom: 10px;
         gap: 10px;
-        min-width: 200px;
+        min-width: 150px;
     }
 
 
@@ -520,6 +520,8 @@
     .wrapper{
         flex-direction: column;
         gap: 20px;
+        box-sizing: border-box;
+        max-width: 100%;
     }
 
     .contact__item{
@@ -527,12 +529,21 @@
     }
     .contact__form{
         margin-bottom: 50px;
-        flex: 1;
+        flex-basis: 100%;
         padding: 25px;
+        width: 100%;
+        box-sizing: border-box;
     }
 
+    .contact__info input,
+    .contact__info textarea,
+    .contact__info button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
     .contact__things{
-        flex: 1;
+        flex-basis: 100%;
     }
     
     .contact__inp{
@@ -541,7 +552,12 @@
 
     .contact__inp input {
         margin-bottom: 15px;
-        width: auto;
+        width: 100%;
+    }
+
+    .contact__info textarea,
+    .contact__info button{
+        width: 100%;
     }
 
     .contact__socials a {
