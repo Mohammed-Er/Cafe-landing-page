@@ -1,6 +1,7 @@
     * {
         padding: 0;
         margin: 0;
+        box-sizing: border-box;
     }
     html{
         scroll-behavior: smooth;
@@ -173,6 +174,7 @@
         flex-basis: 45%;
         align-items: center;
         justify-content: center;
+        box-sizing: border-box;
     }
     .contact__things i {
         color: #d0841a;
@@ -525,7 +527,7 @@
     }
 
     .contact__item{
-        min-width: auto;
+        min-width: 200px;
     }
     .contact__form{
         margin-bottom: 50px;
@@ -541,7 +543,6 @@
         width: 100%;
         box-sizing: border-box;
     }
-    
     .contact__things{
         flex-basis: 100%;
     }
