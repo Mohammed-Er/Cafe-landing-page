@@ -38,7 +38,6 @@
         justify-content: space-between;
         gap: 20px;
         flex: 40%;
-        
     }
 
     .nav__toggle{
@@ -81,6 +80,7 @@
         left: 50%;
         transform: translate(-50%, -30%);
         text-align: center;
+        padding: 15px;
     }
 
     .hero__title{
@@ -92,6 +92,7 @@
     .hero__p{
         color: #fefefe;
         font-size: 14px;
+        margin-bottom: 5px;
     }
 
     .fa-mug-saucer {
@@ -388,6 +389,7 @@
         font-size: 14px;
         margin-bottom: 10px;
         align-self: center;
+        padding: 20px;
     }
 
     .footer__links{
@@ -460,7 +462,7 @@
         border-radius: 8px;
         background-color: rgba(226, 223, 219, 0.95);
         margin-top: 10px;
-        
+
     }
     .nav__list-item{
         font-size: 14px; 
@@ -474,7 +476,7 @@
     }
 
     .hero__title{
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .hero__p{
@@ -505,7 +507,12 @@
     .cafe__img{
         width: 100%;
     }
-
+    .cafe__p{
+        font-size: 14px;
+    }
+    .cafe__title{
+        font-size: 24px;
+    }
     .menu__grid{
         grid-template-columns: 1fr;
     }
@@ -513,7 +520,16 @@
     .menu__price{
         margin-bottom: 5px;
     }
-
+    .menu__title{
+        font-size: 24px;
+    }
+    .menu__btn{
+        font-size: 12px;
+        box-sizing: border-box;
+    }
+    .menu__item{
+        font-size: 18px;
+    }
     .menu, .contact, .cafe, .footer {
     padding: 15px;
     margin: 10px;
@@ -525,9 +541,17 @@
         box-sizing: border-box;
         max-width: 100%;
     }
-
+    .contact__title{
+        font-size: 22px;
+    }
     .contact__item{
         min-width: 200px;
+    }
+    .contact__item p{
+        font-size: 14px;
+    }
+    .contact__item i{
+        font-size: 17px;
     }
     .contact__form{
         margin-bottom: 50px;
@@ -585,7 +609,7 @@
     }
 
     .footer__item h4{
-        font-size: 15px;
+        font-size: 16px;
         margin-bottom: 5px;
     }
 
@@ -613,6 +637,21 @@
     }
 
     .contact__item{
+        width: 100%;
+    }
+    .cafe{
+        flex-direction: column;
+    }
+    
+    .cafe__left{
+        flex-basis: 100%;
+    }
+
+    .cafe__right{
+        flex-basis: 100%;
+    }
+
+    .cafe__img{
         width: 100%;
     }
 }
