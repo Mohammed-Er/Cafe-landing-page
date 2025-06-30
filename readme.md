@@ -10,7 +10,7 @@ A simple and cozy responsive landing page for a fictional cafe.
 - FontAwesome Icons
 
 ## 🔍 Live Preview
-[Live Demo](https://mohammed-er.github.io/Cozy-Cafe/)
+[Live Demo](https://mohammed-er.github.io/Cafe-landing-page/)
 
 ## 📸 Screenshots
 ![Header section](assets/images/image.png)
